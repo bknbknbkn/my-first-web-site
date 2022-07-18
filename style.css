@@ -1,0 +1,79 @@
+html {
+  height: 100%;
+}
+
+header {
+  height: 100px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  font-family: 'InkLipquid';
+}
+
+#list {
+  padding: 0px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50px;
+  position: fixed;
+  background: whitesmoke;
+  opacity: 0.7;
+  font-family: 'Vitro_pride';
+}
+
+#list .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+}
+
+.item p {
+  font-weight: 500;
+  font-size: x-large;
+  color: #4e3524;
+}
+
+.item p:hover {
+  font-weight: 900;
+  font-style: italic;
+  color: black;
+}
+
+body {
+  height: 100vw;
+  margin: 0px;
+  background-image: url('backGround.jpg');
+  background-size: cover;
+}
+
+header + div {
+  margin-top: 20px;
+}
+
+header + div p {
+  margin-left: 30px;
+  text-align: left;
+  font-size: 50px;
+  opacity: 0.5;
+}
+
+@font-face {
+  font-family: 'InkLipquid';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vitro_pride';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_pride.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
